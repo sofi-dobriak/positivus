@@ -1,0 +1,103 @@
+.service-section {
+    padding-bottom: 60px;
+}
+
+.service-title {
+    font-weight: 500;
+    font-size: 36px;
+
+    background-color: var(--accent-color);
+    border-radius: 6px;
+
+    padding: 0px 6px;
+    width: 160px;
+    margin: 0 auto 30px;
+}
+
+.service-text {
+    max-width: 390px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    padding: 50px;
+    max-width: 430px;
+    height: 322px;
+    margin-bottom: 30px;
+
+    box-shadow: 0 5px 0 0 var(--box-shadow-color);
+    border: 1px solid var(--border-color);
+    border-radius: 45px;
+}
+
+.service-item:nth-child(3n + 1) {
+    background: var(--card-bg);
+}
+
+.service-item:nth-child(3n +2) {
+    background-color: var(--accent-color);
+}
+
+.service-item:nth-child(3n) {
+    background-color: var(--bg-additional-color);
+}
+
+.service-item:last-child {
+    margin-bottom: 0;
+}
+
+.sub-title-container {
+    max-width: 194px;
+    margin-bottom: 26px;
+}
+
+.first-row,
+.second-row {
+    font-weight: 500;
+    font-size: 26px;
+    border-radius: 6px;
+    padding: 0px 6px;
+    display: inline-block;
+    background-color: var(--accent-color);
+}
+
+.service-item:nth-child(3n+2) .sub-title-container .first-row,
+.service-item:nth-child(3n+2) .sub-title-container .second-row {
+    background-color: var(--bg-font-color);
+}
+
+.service-item:nth-child(3n) .sub-title-container .first-row,
+.service-item:nth-child(3n) .sub-title-container .second-row {
+    background-color: var(--bg-font-color);
+}
+
+.link-img-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.service-link {
+    width: 40px;
+    height: 40px;
+    background-color: var(--link-bg-dark);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon {
+    stroke-width: 3px;
+    fill: var(--accent-color);
+}
+
+.service-item:nth-child(3n) .link-img-container .service-link {
+    background-color: var(--link-bg-light);
+}
+
+.service-item:nth-child(3n) .link-img-container .service-link .service-icon {
+    fill: var(--link-bg-dark);
+}

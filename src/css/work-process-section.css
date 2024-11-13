@@ -1,0 +1,78 @@
+.work-process-section {
+    padding-bottom: 60px;
+}
+
+.title-container {
+    margin-bottom: 30px;
+}
+
+.work-title,
+.work-title-descr {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    background-color: var(--accent-color);
+    display: block;
+    border-radius: 6px;
+    padding: 0px 6px;
+    margin: 0 auto;
+}
+
+.work-title {
+    width: 226px;
+}
+
+.work-title-descr {
+    width: 166px;
+}
+
+.work-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.work-item {
+    border: 1px solid var(--border-color);
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 var(--box-shadow-color);
+    background: var(--card-bg);
+    padding: 30px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-text-container {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.work-item:last-child {
+    margin-bottom: 0;
+}
+
+.work-num {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.work-description {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.icon-container {
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-icon {
+    fill: var(--icon-stroke-color)
+}

@@ -1,0 +1,15 @@
+.clients-section {
+    padding-bottom: 60px;
+}
+
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 38px;
+    row-gap: 20px;
+}
+
+.clients-item {
+    flex-basis: calc((100% - 38px * 2) / 3);
+}

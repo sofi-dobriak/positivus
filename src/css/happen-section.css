@@ -1,0 +1,36 @@
+.happen-section {
+    padding-bottom: 60px;
+}
+
+.happen-container {
+    padding: 50px;
+    border-radius: 14px;
+    background-color: var(--card-bg);
+}
+
+.happen-title {
+    font-weight: 500;
+    font-size: 26px;
+    max-width: 290px;
+    margin-bottom: 20px;
+}
+
+.happen-text {
+    max-width: 290px;
+    margin-bottom: 20px;
+}
+
+.happen-link {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--font-font-color);
+
+    background-color: var(--button-bg);
+    padding: 20px 58px;
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
