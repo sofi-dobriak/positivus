@@ -47,6 +47,11 @@
     margin-bottom: 0;
 }
 
+.service-item:hover,
+.service-item:focus {
+    box-shadow: 0 -5px 0 0;
+}
+
 .sub-title-container {
     max-width: 194px;
     margin-bottom: 26px;

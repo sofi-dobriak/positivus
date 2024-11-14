@@ -1,0 +1,149 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: var(--footer-bg);
+    color: var(--font-font-color)
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--font-font-color);
+    margin-bottom: 36px;
+}
+
+.footer-nav-list {
+    margin-bottom: 36px;
+}
+
+.footer-nav-item {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer-nav-item:last-child {
+    margin-bottom: 0;
+}
+
+.address-container {
+    margin-bottom: 36px;
+}
+
+.address-title {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: var(--font-main-color);
+    display: block;
+    margin: 0 auto 36px;
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    padding: 0px 6px;
+    width: 114px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-item {
+    text-align: center;
+    max-width: 296px;
+    margin-bottom: 16px;
+    display: block;
+    margin: 0 auto 16px;
+}
+
+.address-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-form {
+    padding: 30px;
+    background-color: var(--footer-form-bg);
+    border-radius: 14px;
+    margin-bottom: 36px;
+}
+
+.footer-input {
+    border: 1px solid var(--footer-border-color);
+    background-color: transparent;
+    color: var(--font-font-color);
+    border-radius: 14px;
+    padding: 20px 24px;
+    width: 330px;
+    margin-bottom: 22px;
+}
+
+.footer-input::placeholder {
+    color: var(--font-font-color);
+}
+
+.footer-input:hover,
+.footer-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.footer-form-button {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--font-main-color);
+
+    border-radius: 14px;
+    min-width: 330px;
+    height: 68px;
+
+    border: none;
+    background-color: var(--accent-color);
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 36px;
+}
+
+.footer-social-item {
+    margin-bottom: 36px;
+}
+
+.footer-social-link {
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-social-icon {
+    fill: var(--icon-stroke-color);
+}
+
+.facebook {
+    border: none;
+    border-radius: 100%;
+    background-color: #000;
+    fill: #fff;
+}
+
+.footer-rights-container {}
+
+.footer-rights {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer-policy {
+    text-align: center;
+}

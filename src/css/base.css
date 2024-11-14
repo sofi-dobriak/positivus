@@ -35,19 +35,26 @@
 
     --box-shadow-color: #191a23;
     --border-color: #191a23;
+    --footer-border-color: #fff;
 
     --button-bg: #191a23;
     --card-bg: #f3f3f3;
     --form-bg: #f3f3f3;
+    --footer-bg: #191a23;
+    --footer-form-bg: #292a32;
 
     --link-bg-light: #fff;
     --link-bg-dark: #000;
 
     --icon-stroke-color: #000;
+    --icon-fill-light: #fff;
 
     --font-family: "Space Grotesk", sans-serif;
     --font-main-color: #000;
     --font-font-color: #fff;
+
+    --placeholder-color: #898989;
+
 }
 
 

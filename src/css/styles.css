@@ -1,4 +1,5 @@
 @import url('./reset.css');
+@import url('./normilize.css');
 @import url('./base.css');
 
 
@@ -9,4 +10,7 @@
 @import url('./happen-section.css');
 @import url('./cases-section.css');
 @import url('./work-process-section.css');
+@import url('./team-section.css');
+@import url('./testimonials-section.css');
+@import url('./contact-section.css');
 @import url('./footer.css');
