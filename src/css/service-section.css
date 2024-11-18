@@ -99,10 +99,20 @@
     fill: var(--accent-color);
 }
 
+.service-link:hover .service-icon,
+.service-link:focus .service-icon {
+    fill: var(--icon-fill-light);
+}
+
 .service-item:nth-child(3n) .link-img-container .service-link {
     background-color: var(--link-bg-light);
 }
 
 .service-item:nth-child(3n) .link-img-container .service-link .service-icon {
     fill: var(--link-bg-dark);
+}
+
+.service-item:nth-child(3n) .link-img-container .service-link:hover,
+.service-item:nth-child(3n) .link-img-container .service-link:focus {
+    background-color: var(--hover-focus-color);
 }

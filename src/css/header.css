@@ -27,5 +27,10 @@
 
 .burger-icon {
     stroke-width: 2px;
-    stroke: #000;
+    stroke: var(--icon-stroke-color);
+}
+
+.burger-button:hover .burger-icon,
+.burger-button:focus .burger-icon {
+    stroke: var(--hover-focus-color);
 }

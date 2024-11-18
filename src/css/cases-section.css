@@ -49,6 +49,16 @@
     color: var(--accent-color);
 }
 
+.case-link:hover,
+.case-link:focus {
+    color: var(--icon-fill-light);
+}
+
 .case-icon {
-    fill: var(--accent-color)
+    fill: var(--accent-color);
+}
+
+.case-link:hover+.case-icon,
+.case-link:focus+.case-icon {
+    fill: var(--icon-fill-light);
 }

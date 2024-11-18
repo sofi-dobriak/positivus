@@ -34,3 +34,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.happen-link:hover,
+.happen-link:focus {
+    color: var(--font-main-color);
+    background-color: var(--hover-focus-color);
+}

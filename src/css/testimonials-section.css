@@ -32,6 +32,10 @@
     margin-bottom: 60px;
 }
 
+.name-container {
+    margin-left: 40px;
+}
+
 .testimomial-description {
     color: var(--font-font-color);
     display: block;
@@ -47,7 +51,9 @@
     background-image: url(../img/mob/comment.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 334px;
+    display: block;
+    width: 100%;
+    min-width: 334px;
     height: 330px;
     top: -30px;
     left: -30px;
@@ -78,7 +84,13 @@
 }
 
 .testimomial-button-icon {
+    opacity: .5;
     fill: var(--icon-fill-light);
+}
+
+.testimomial-button-icon:hover,
+.testimomial-button-icon:focus {
+    opacity: 1;
 }
 
 .testimomial-button .backward {
@@ -96,5 +108,11 @@
 }
 
 .testimomial-icon {
-    fill: var(--icon-fill-light)
+    fill: var(--icon-fill-light);
+}
+
+@media screen and (max-width: 378px) {
+    .testimomial-description::after {
+        display: none;
+    }
 }

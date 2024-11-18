@@ -24,8 +24,8 @@
     text-align: center;
     color: var(--font-font-color);
 
-
-    min-width: 390px;
+    width: 100%;
+    max-width: 390px;
     height: 68px;
 
     display: flex;
@@ -36,9 +36,8 @@
     background-color: var(--button-bg);
 }
 
-@media screen and (max-width: 420px) {
-    .hero-link {
-        min-width: 200px;
-
-    }
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--font-main-color);
+    background-color: var(--hover-focus-color);
 }

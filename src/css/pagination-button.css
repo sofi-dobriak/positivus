@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination-button {
+    background-color: transparent;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-icon {
+    fill: var(--icon-fill-light);
+}
+
+.pagination-button.active .pagination-icon {
+    fill: var(--hover-focus-color);
+}

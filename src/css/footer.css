@@ -29,6 +29,12 @@
     margin-bottom: 0;
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+    color: var(--hover-focus-color);
+    text-decoration: underline;
+}
+
 .address-container {
     margin-bottom: 36px;
 }
@@ -62,6 +68,12 @@
     margin-bottom: 0;
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: var(--hover-focus-color);
+    text-decoration: underline;
+}
+
 .footer-form {
     padding: 30px;
     background-color: var(--footer-form-bg);
@@ -75,7 +87,8 @@
     color: var(--font-font-color);
     border-radius: 14px;
     padding: 20px 24px;
-    width: 330px;
+    width: 100%;
+    max-width: 330px;
     margin-bottom: 22px;
 }
 
@@ -96,11 +109,18 @@
     color: var(--font-main-color);
 
     border-radius: 14px;
-    min-width: 330px;
+    width: 100%;
+    max-width: 330px;
     height: 68px;
 
     border: none;
     background-color: var(--accent-color);
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+    color: var(--hover-focus-color);
+    background-color: var(--button-bg);
 }
 
 .footer-social-list {
@@ -126,6 +146,11 @@
     height: 30px;
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--hover-focus-color);
+}
+
 .footer-social-icon {
     fill: var(--icon-stroke-color);
 }
@@ -137,7 +162,10 @@
     fill: #fff;
 }
 
-.footer-rights-container {}
+.footer-social-link:hover .facebook,
+.footer-social-link:focus .facebook {
+    fill: var(--hover-focus-color);
+}
 
 .footer-rights {
     text-align: center;

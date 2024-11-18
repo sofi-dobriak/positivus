@@ -4,6 +4,7 @@
 
 
 @import url('./header.css');
+@import url('./mobile-menu.css');
 @import url('./hero-section.css');
 @import url('./clients-section.css');
 @import url('./service-section.css');
@@ -12,5 +13,6 @@
 @import url('./work-process-section.css');
 @import url('./team-section.css');
 @import url('./testimonials-section.css');
+@import url('./pagination-button.css');
 @import url('./contact-section.css');
 @import url('./footer.css');
